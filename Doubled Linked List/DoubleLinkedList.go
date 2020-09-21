@@ -61,4 +61,5 @@ func main() {
 	}
 
 	list.PrintNodes()
+
 }
