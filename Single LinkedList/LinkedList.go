@@ -51,3 +51,14 @@ func (l *LinkedList) PrintNodes() {
 	}
 	fmt.Printf("%d\n", node.val)
 }
+
+func main() {
+	list := &LinkedList{}
+	list.AddNode(0)
+
+	for i := 1; i < 10; i++ {
+		list.AddNode(i)
+	}
+
+	list.PrintNodes()
+}
